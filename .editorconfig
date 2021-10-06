@@ -1,0 +1,52 @@
+# ⚠️ 注意点：
+# 1. EditorConfig 的匹配规则是从上往下，即先定义的规则优先级比后定义的优先级要高。
+# 2. 部分配置项，有可能会与 Editor 耦合在一起，最终效果不一定取决于 EditorConfig 配置。
+#
+# 更多请看：
+# http://editorconfig.org
+# https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties
+
+# 若为 true 表示不再向上查找 .editorconfig 文件，类似于 ESLint 中的 root 配置项。
+root = true
+
+# * 表示匹配所有文件
+[*]
+# 缩进风格：space or tab。若设为 tab，还可对 tab_width 配置项设置一个 table 键的宽度
+indent_style = space
+# 缩进大小
+indent_size = 2
+# 换行符，支持 lf、cr、crlf
+end_of_line = lf
+# 字符集
+charset = utf-8
+# 删除尾随空白符。
+# 请注意，若编辑器中设置了 "files.trimTrailingWhitespace": true，那么 trim_trailing_whitespace = false 将不生效。
+trim_trailing_whitespace = true
+# 文件末尾添加空行，即文件末尾总以换行符结尾
+insert_final_newline = true
+# 运算符两边应存在空格
+spaces_around_operators = true
+
+# 按文件扩展名匹配，
+# 还可以 [*.{js,py}]、[lib/**.js]、[{package.json,.travis.yml}] 等方式按需匹配
+[*.js]
+# 引号类型，支持 sigle、double、auto
+quote_type = single
+
+[.*rc]
+indent_size = 2
+indent_style = space
+
+[*.json]
+indent_size = 2
+indent_style = space
+
+[*.md]
+max_line_length = 0
+indent_style = space
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+# 针对小程序项目配置文件
+[{project.config.json,mini.project.json,project.swan.json}]
+insert_final_newline = false
