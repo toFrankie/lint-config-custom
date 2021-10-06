@@ -1,0 +1,8 @@
+{
+  "name": "lint-config-custom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/toFrankie/lint-config-custom.git",
+  "author": "Frankie <1426203851@qq.com>",
+  "license": "MIT"
+}
