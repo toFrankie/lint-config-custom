@@ -59,5 +59,15 @@
     "vue",
     "typescript",
     "typescriptreact"
-  ] // 指定 ESLint 可识别的语言数组，未安装 ESLint 插件时将显示错误。
+  ], // 指定 ESLint 可识别的语言数组，未安装 ESLint 插件时将显示错误。
+
+  // CSSComb 相关（需安装 CSScomb 插件）
+  "csscomb.formatOnSave": true, // 保存文件时自动格式化
+  "csscomb.preset": ".csscomb.json", // 预设（即 CSSComb 的配置文件），可设置为 Object or String，我更喜欢将 .csscomb.json 的对象放在这里，但由于方便维护，因此通过字符串形式来引用配置文件。
+  "csscomb.ignoreFilesOnSave": ["node_modules/**"], // 保存时忽略文件，作用同 CSSComb 配置文件内的 exclude
+  "csscomb.syntaxAssociations": {
+    // 以下似乎对小程序 WXSS 等样式文件无效（有空再仔细琢磨一下），但只要将 files.associations 配置关联为 css 文件，同样可以实现保存时自动格式化。
+    "*.wxss": "css",
+    "*.acss": "css"
+  }
 }
