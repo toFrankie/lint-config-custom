@@ -1,8 +1,8 @@
 # Lint Config Custom
 
-记录平常项目中的规范或习惯（持续维护）
+根据个人编码习惯、借鉴一些开源项目而总结出的一套规范。持续更新，不断完善......**但请注意，这并不一定适合你或者你的团队，仅供参考，也非常欢迎指出不足之处**。
 
-> 包括但不限于 ESLint、Prettier、EditorConfig、CSSComb、PostCSS、Babel、Webpack、VS Code 等工具链的相关配置。
+> 包括但不限于 ESLint、Prettier、EditorConfig、CSSComb、PostCSS、Babel、Webpack、VS Code 等前端相关的工具（链）配置。
 
 ## [EditorConfig](https://editorconfig.org/)
 
