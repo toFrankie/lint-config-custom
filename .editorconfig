@@ -44,7 +44,7 @@ indent_style = space
 [*.md]
 max_line_length = 0
 indent_style = space
-insert_final_newline = false
+insert_final_newline = false # 这个也可能会受 Prettier 影响，将 *.md 添加到 .prettierignore 里即可
 trim_trailing_whitespace = false
 
 # 针对小程序项目配置文件
