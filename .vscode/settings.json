@@ -53,13 +53,7 @@
     // 更多详见 https://eslint.cn/docs/developer-guide/nodejs-api#cliengine
     "extensions": [".js", ".ts", "jsx", ".tsx"] // 要检查的文件扩展名的数组
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "vue",
-    "typescript",
-    "typescriptreact"
-  ], // 指定 ESLint 可识别的语言数组，未安装 ESLint 插件时将显示错误。
+  "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"], // 指定 ESLint 可识别的语言数组，未安装 ESLint 插件时将显示错误。
 
   // CSScomb 相关（需安装 CSScomb 插件）
   "csscomb.formatOnSave": true, // 保存文件时自动格式化

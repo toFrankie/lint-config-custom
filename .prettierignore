@@ -5,7 +5,7 @@
 *.dll.js
 *.dll.manifest.json
 
-## OS
+# OS
 .DS_Store
 .idea
 .editorconfig
@@ -20,6 +20,6 @@ package-lock.json
 *ignore
 
 
-## Built-files
+# Built-files
 .cache
 dist
