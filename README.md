@@ -28,3 +28,9 @@ CSScomb 是一个 CSS 样式格式化工具，它最主要的特性是支持**�
 > 现在，我更喜欢将其结合 VS Code 的 [CSScomb](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-csscomb)（`mrmlnc`）插件使用，只要保存就能格式化。
 
 以往，我将其集成到了 `husky`、`lint-staged` 里面以便项目规范，但细想似乎没必要。
+
+## [Prettier](https://prettier.io/)
+
+> An opinionated code formatter.
+
+在项目中，通常会结合 ESLint 一起使用。ESLint 关注语法问题，而 Prettier 则关注文件格式问题。
