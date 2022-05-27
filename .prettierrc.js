@@ -9,7 +9,7 @@ module.exports = {
   quoteProps: 'as-needed', // 对象中属性将是否使用引号，as-needed 仅在有必要时才会添加引号，且引号风格基于以上两项配置。比如：{ 'no-var': 2 }
   trailingComma: 'none',
   bracketSpacing: true,
-  jsxBracketSameLine: false,
+  bracketSameLine: false,
   arrowParens: 'avoid',
   rangeStart: 0,
   rangeEnd: Infinity,
