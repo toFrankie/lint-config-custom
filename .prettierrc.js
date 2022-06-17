@@ -7,7 +7,7 @@ module.exports = {
   singleQuote: true, // 是否使用单引号，请注意它能处理好单/双引号同时使用的场景。
   jsxSingleQuote: false, // 作为同上，它在 JSX 中生效，且会忽略 singleQuote
   quoteProps: 'as-needed', // 对象中属性将是否使用引号，as-needed 仅在有必要时才会添加引号，且引号风格基于以上两项配置。比如：{ 'no-var': 2 }
-  trailingComma: 'none',
+  trailingComma: 'es5',
   bracketSpacing: true,
   bracketSameLine: false,
   arrowParens: 'avoid',
