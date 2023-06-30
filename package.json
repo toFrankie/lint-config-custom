@@ -4,7 +4,11 @@
   "repository": "https://github.com/toFrankie/lint-config-custom.git",
   "author": "Frankie <1426203851@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "build:csscomb": "node scripts/build-csscomb.js"
+  },
   "devDependencies": {
-    "prettier": "^2.7.0"
+    "prettier": "^2.7.0",
+    "stylelint-config-recess-order": "^4.2.0"
   }
 }
